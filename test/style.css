@@ -1,0 +1,47 @@
+#first{
+    display: flex;
+    justify-content: space-between;
+}
+#team1,#team2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+#name{
+    max-width: 150px;
+    border-radius: 10px;
+    border: 0;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+#p1{
+    border: 0;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+#middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#counter, #word{
+    border: 0;
+    background-color: grey;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}

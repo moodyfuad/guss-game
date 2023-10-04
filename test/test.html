@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="first">
+        <div id="team1">
+            <input id="name" type="text" placeholder="الفريق الاول">
+            <p>العد</p>
+            <button id="p1" onclick="inc();">صحيح</button>
+        
+        </div>
+        <div id="middle">
+            <p id="counter">0</p>
+            <p id="word">الكلمة</p>
+
+        </div>
+
+        <div id="team2">
+            <input id="name" type="text" placeholder="الفريق الثاني">
+            <p>العد</p>
+            <button  id="p1" onclick="inc();">صحيح</button>
+        
+        </div>
+
+    </div>
+
+    <div id="second">
+        <button id="changeWord" onclick="changeWord();">غير الكلمة</button>
+    </div>
+
+    <div id="third">
+        <button id="startCounter" onclick="timer();">بدأ العد</button>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
