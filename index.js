@@ -1,6 +1,4 @@
 
-
-//this update is from game
 let team1 = 0; let team2= 0;
 function element(id, value) { return document.getElementById(id).innerHTML = value; }
 function button(id) { return document.getElementById(id); }
